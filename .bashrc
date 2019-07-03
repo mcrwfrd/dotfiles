@@ -3,6 +3,6 @@
 # bashrc
 
 [ -n "$PS1" ]
-source ~/.bash_profile
-source ~/.bash_prompt
-source ~/.bash_aliases
+source ~/bash/.bash_profile
+source ~/bash/.bash_prompt
+source ~/bash/.bash_aliases
