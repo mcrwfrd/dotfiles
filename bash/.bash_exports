@@ -2,6 +2,9 @@
 
 # bash_exports
 
+# For compser-installed packages
+export PATH=$PATH:$HOME/.config/composer/vendor/bin
+
 # Go paths
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$(go env GOPATH)/bin
