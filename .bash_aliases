@@ -4,6 +4,7 @@
 
 alias config='/usr/bin/git --git-dir=/home/michael/.cfg/ --work-tree=/home/michael'
 alias config='/usr/bin/git --git-dir=/Users/mcrawford/.cfg/ --work-tree=/Users/mcrawford'
+alias config='/usr/bin/git --git-dir=/Users/michael/.cfg/ --work-tree=/Users/michael'
 
 alias ls='ls -1A'
 alias ll='ls -lAho'
