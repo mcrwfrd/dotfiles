@@ -11,3 +11,6 @@ alias ll='ls -lAho'
 
 # for quick HackerNews hits
 alias hn='w3m news.ycombinator.com' 
+
+#build and deploy claire's site and returns to home directory
+alias cgb-deploy='cd ~/projects/clairegaulinbrown.com && hugo && gsutil -m rsync -R public/ gs://www.clairegaulinbrown.com && cd'
